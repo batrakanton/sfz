@@ -1,0 +1,97 @@
+div.uk-form{
+    display: flex;
+    justify-content: center; /* центрирование по горизонтали */
+    align-items: center; /* центрирование по вертикали */
+    height: 100vh; /* установка высоты на весь экран */
+}
+div.uk-form div.uk-width-1-1 div{
+    margin-bottom: 20px;
+}
+div.uk-form-container{
+
+}
+button.uk-button.uk-button-default{
+    font-family: Proxima Nova Lt;
+    font-size: 14px;
+    line-height: 1.55;
+    font-weight: 600;
+    border-width: 3px;
+    border-radius: 30px;
+    background-position: center center;
+    border-style: solid;
+    transition: background-color .2s ease-in-out,color .2s ease-in-out,border-color .2s ease-in-out;
+    padding: 8px 20px;
+    color: #fff;
+    background-color: #06658b;
+    border-color: #06658b;
+    letter-spacing: 0.8px;
+}
+button.uk-button.uk-button-default:hover {
+    box-shadow: 0 1px 6px #00000052;
+    transition: background-color .2s ease-in-out,color .2s ease-in-out,border-color .2s ease-in-out;
+}
+
+.dashboard-container{
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard-menu{
+    width: 50px;
+    position: fixed;
+    background: #242e39;
+    height: 100vh;
+    transition: width 0.3s ease-in-out;
+}
+.dashboard-menu:hover{
+    width: 300px;
+    transition: width 0.3s ease-in-out;
+}
+.dashboard-content{
+    width: 100%;
+}
+.dashboard-right-menu{
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 1px solid #d5d5dd;
+}
+.right-side{
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+    height: 50px;
+}
+a.uk-button-logout{
+    border-left: 1px solid #d5d5dd;
+    color: #242e39;
+    display: block;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+}
+a.uk-button-logout:hover{
+    background: #d5d5dd;
+    color: #242e39;
+}
+
+a.right-menu-fio{
+    color: #242e39;
+    border-left: 1px solid #d5d5dd;
+    padding: 0px 20px 0px 20px;
+}
+a.right-menu-fio:hover{
+    background: #d5d5dd;
+    color: #242e39;
+}
+.dashboard-data{
+    padding-left: 50px;
+}
+table td{
+    font-size: 14px;
+}
+
+
+
+
+
