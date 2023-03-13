@@ -59,8 +59,16 @@
       <option name="presentableId" value="Default" />
       <updated>1678445230283</updated>
       <workItem from="1678445237110" duration="175000" />
-      <workItem from="1678445448474" duration="48757000" />
+      <workItem from="1678445448474" duration="49569000" />
     </task>
+    <task id="LOCAL-00001" summary="13.03.2023">
+      <created>1678689058853</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678689058854</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +84,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="13.03.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="13.03.2023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
